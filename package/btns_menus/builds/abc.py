@@ -5,8 +5,6 @@ import discord
 
 from discord import utils
 
-DEFAULT_TIMEOUT: Union[int, float] = 180.0
-
 
 def is_embed(response: Any) -> bool:
     """
