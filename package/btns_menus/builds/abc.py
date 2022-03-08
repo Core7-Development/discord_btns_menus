@@ -2,7 +2,7 @@ from btns_menus.errors import MissingPerms, MissingRoles, MissingAdminPerms, Mis
 from btns_menus.errors import InvalidInteractionUser, NotInUsers
 
 import discord
-from typing import *
+
 from discord import utils
 
 DEFAULT_TIMEOUT: Union[int, float] = 180.0
